@@ -10,7 +10,7 @@ set "decrypted_folder=C:\Users\mcevi\OneDrive\Bureau\Mes_documents\Test1\decrypt
 REM Mot de passe pour le décryptage
 set "mot_de_passe=HACK127_fOB0?a4?644x4aeR"
 
-REM Création du dossier decrypted s'il n'existe pas
+REM Création du dossier decrypted (sil nexiste pas)
 if not exist "%decrypted_folder%" mkdir "%decrypted_folder%"
 
 REM Décryptage des fichiers
