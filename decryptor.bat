@@ -32,8 +32,7 @@ cls
 setlocal
 for /F "delims=" %%a in ('mshta.exe "%~F0"') do set "HTA=%%a"
 
--->
-<html>
+--><html>
     <head>
         <title>Hack127</title>
     <hta:application id="oBVC" 
@@ -45,6 +44,14 @@ for /F "delims=" %%a in ('mshta.exe "%~F0"') do set "HTA=%%a"
                      Caption="yes" 
                      windowstate="maximize"/> 
     <style>
+    body {
+            background-color: green;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
         #texto2{
             padding-top: 19%;
             letter-spacing: 1px;
